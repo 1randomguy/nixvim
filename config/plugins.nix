@@ -7,6 +7,11 @@
     };
     treesitter.enable = true;
     web-devicons.enable = true;
+    # Greeter
+    alpha = {
+      enable = true;
+      theme = "dashboard";
+    };
 
     # Statusline at the bottom
     lualine.enable = true;
