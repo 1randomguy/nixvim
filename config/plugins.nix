@@ -1,5 +1,6 @@
 {
   plugins = {
+    # Telescope to find files
     telescope = {
       enable = true;
       extensions.fzf-native = {
@@ -13,8 +14,26 @@
       };
       extensions.file-browser.enable = true;
     };
+
+    # Smooth scrolling
+    neoscroll = {
+      enable = true;
+      settings = {
+        easing_function = "quadratic";
+      };
+    };
+
+    # Todo Comments
+    todo-comments.enable = true;
+
+    # Syntax Highlighting
     treesitter.enable = true;
+
+    # Icons
     web-devicons.enable = true;
+
+    #noice.enable = true;
+
     # Greeter
     alpha = {
       enable = true;
@@ -44,6 +63,9 @@
       enable = true;
       settings.current_line_blame = true;
     };
+
+    # Autopairs
+    nvim-autopairs.enable = true;
 
     # Language Servers
     lsp = {
