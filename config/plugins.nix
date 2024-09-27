@@ -2,7 +2,15 @@
   plugins = {
     telescope = {
       enable = true;
-      extensions.fzf-native.enable = true;
+      extensions.fzf-native = {
+        enable = true;
+        settings = {
+          case_mode = "ignore_case";
+          #fuzzy = false;
+          override_file_sorter = false;
+          override_generic_sorter = true;
+        };
+      };
       extensions.file-browser.enable = true;
     };
     treesitter.enable = true;
@@ -15,6 +23,21 @@
 
     # Statusline at the bottom
     lualine.enable = true;
+
+    # Terminal inside of NVIM
+    toggleterm = {
+      enable = true;
+      settings = {
+        direction = "float";
+        float_opts = {
+          border = "curved";
+        };
+        open_mapping = "[[<c-t>]]";
+        hide_numbers = true;
+        autochdir = true;
+        close_on_exit = true;
+      };
+    };
 
     # Gitblame 
     gitsigns = {
