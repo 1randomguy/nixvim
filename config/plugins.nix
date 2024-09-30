@@ -31,6 +31,12 @@
       autoSession.useGitBranch = true;
     };
 
+    # Markdown Preview
+    markdown-preview = {
+      enable = true;
+      settings.theme = "dark";
+    };
+
     # Smooth scrolling
     neoscroll = {
       enable = true;
