@@ -26,5 +26,13 @@
       action = "<cmd>SessionSearch<CR>";
       key = "<leader>sl";
     }
+    {
+      action = "<cmd>UndotreeToggle<CR>";
+      key = "<leader>ut";
+    }
+    {
+      action = "<cmd>UndotreeFocus<CR>";
+      key = "<leader>uf";
+    }
   ];
 }

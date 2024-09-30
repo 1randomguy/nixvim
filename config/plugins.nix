@@ -50,6 +50,15 @@
 
     #noice.enable = true;
 
+    # Undotree
+    undotree = {
+      enable = true;
+      settings = {
+        autoOpenDiff = true;
+        focusOnToggle = true;
+      };
+    };
+
     # Greeter
     alpha = {
       enable = true;
