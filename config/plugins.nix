@@ -13,6 +13,22 @@
         };
       };
       extensions.file-browser.enable = true;
+      extensions.frecency = {
+        enable = true;
+        settings = {
+          workspaces = {
+            nixvim_conf = "/home/bene/nixvim";
+            nixos_conf = "/home/bene/.dotfiles";
+          };
+        };
+      };
+    };
+
+    # Auto Session
+    auto-session = {
+      enable = true;
+      autoRestore.enabled = false;
+      autoSession.useGitBranch = true;
     };
 
     # Smooth scrolling

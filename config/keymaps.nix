@@ -18,5 +18,13 @@
       action = "<cmd>Telescope live_grep<CR>";
       key = "<leader>fg";
     }
+    {
+      action = "<cmd>Telescope frecency<CR>";
+      key = "<leader>fr";
+    }
+    {
+      action = "<cmd>SessionSearch<CR>";
+      key = "<leader>sl";
+    }
   ];
 }
