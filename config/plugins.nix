@@ -50,6 +50,22 @@
 
     # Syntax Highlighting
     treesitter.enable = true;
+    treesitter-context.enable = true;
+    treesitter-refactor = {
+      enable = true;
+    };
+
+    # Illuminate other usages of same name
+    illuminate = {
+      enable = true;
+      filetypesDenylist = [
+        "Outline"
+        "TelescopePrompt"
+        "alpha"
+        "harpoon"
+        "reason"
+      ];
+    };
 
     # Icons
     web-devicons.enable = true;
