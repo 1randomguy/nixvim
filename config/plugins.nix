@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   plugins = {
     # Telescope to find files
     telescope = {
@@ -70,7 +70,7 @@
     # Icons
     web-devicons.enable = true;
 
-    #noice.enable = true;
+    noice.enable = true;
 
     # Undotree
     undotree = {
@@ -175,5 +175,19 @@
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
     };
+  };
+
+  extraPlugins = [(pkgs.vimUtils.buildVimPlugin {
+    name = "selenized";
+    src = pkgs.fetchFromGitHub {
+      owner = "calind";
+      repo = "selenized.nvim";
+      rev = "a43e34d91c3ed9b9c6803150b62458f81e000f31";
+      hash = "sha256-xpN2ezh8mQiQ1DVKThvw4AfCkmo1BVB5okdiPm0Y328=";
+    };
+  })];
+
+  colorschemes = {
+    ayu.enable = true;
   };
 }
