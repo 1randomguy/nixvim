@@ -4,7 +4,7 @@ My own config, based on the nixvim template.
 
 ## Requirements
 
-Needs to have `ripgrep` installed for the word search to work.
+Needs to have a Nerdfont set as the default font for icons to work properly.
 
 ## Testing your new configuration
 

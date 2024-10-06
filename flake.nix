@@ -38,6 +38,12 @@
             default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;
           };
 
+          devShells.default = pkgs.mkShell {
+            buildInputs = with pkgs; [
+              ripgrep
+            ];
+          };
+
           packages = {
             # Lets you run `nix run .` to start nixvim
             default = nvim;
