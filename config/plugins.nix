@@ -188,6 +188,7 @@
   })];
 
   colorschemes = {
-    ayu.enable = true;
+    #ayu.enable = true;
+    cyberdream.enable = true;
   };
 }
