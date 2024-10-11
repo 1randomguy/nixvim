@@ -34,5 +34,17 @@
       action = "<cmd>UndotreeFocus<CR>";
       key = "<leader>uf";
     }
+    {
+      action = "<cmd>Ex<CR>";
+      key = "<leader>fe";
+    }
+    {
+      action = "<cmd>Tex<CR>";
+      key = "<leader>te";
+    }
+    {
+      action = "<cmd>tabnew<CR>";
+      key = "<leader>tn";
+    }
   ];
 }
