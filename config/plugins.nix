@@ -111,6 +111,11 @@
       settings.current_line_blame = true;
     };
 
+    # Lazygit
+    lazygit = {
+      enable = true;
+    };
+
     # Autopairs
     nvim-autopairs.enable = true;
 

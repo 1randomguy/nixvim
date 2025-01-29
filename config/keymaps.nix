@@ -51,5 +51,10 @@
       key = "<leader>do";
       options.desc = "Diagnostic Open";
     }
+    {
+      action = "<cmd>LazyGit<CR>";
+      key = "<leader>git";
+      options.desc = "Open LazyGit";
+    }
   ];
 }
