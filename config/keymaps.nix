@@ -3,6 +3,26 @@
 
   keymaps = [
     {
+      action = "<C-w>j";
+      key = "<C-j>";
+      options.noremap = true;
+    }
+    {
+      action = "<C-w>k";
+      key = "<C-k>";
+      options.noremap = true;
+    }
+    {
+      action = "<C-w>h";
+      key = "<C-h>";
+      options.noremap = true;
+    }
+    {
+      action = "<C-w>l";
+      key = "<C-l>";
+      options.noremap = true;
+    }
+    {
       action = "<cmd>Telescope find_files<CR>";
       key = "<leader>ff";
     }
@@ -47,44 +67,44 @@
       key = "<leader>tn";
     }
     {
-      action = "<cmd>lua vim.diagnostic.open_float()<CR>";
-      key = "<leader>do";
-      options.desc = "Diagnostic Open";
-    }
-    {
       action = "<cmd>LazyGit<CR>";
       key = "<leader>git";
       options.desc = "Open LazyGit";
     }
     # LSP
     {
-      mode = "n";
+      action = "<cmd>lua vim.diagnostic.open_float()<CR>";
+      key = "<leader>do";
+      options.desc = "Diagnostic Open";
+    }
+    {
       action = "<cmd>lua vim.lsp.buf.rename()<CR>";
-      key = "grn";
+      key = "<leader>rn";
+      mode = "n";
     }
     {
       action = "<cmd>lua vim.lsp.buf.code_action()<CR>";
       key = "gra";
     }
     {
-      mode = "n";
       action = "<cmd>lua vim.lsp.buf.references()<CR>";
       key = "grr";
+      mode = "n";
     }
     {
-      mode = "n";
       action = "<cmd>lua vim.lsp.buf.implementation()<CR>";
       key = "gri";
+      mode = "n";
     }
     {
-      mode = "n";
       action = "<cmd>lua vim.lsp.buf.document_symbol()<CR>";
       key = "gO";
+      mode = "n";
     }
     {
-      mode = "i";
       action = "<cmd>lua vim.lsp.buf.signature_help()<CR>";
       key = "<C-s>";
+      mode = "i";
     }
   ];
 }
