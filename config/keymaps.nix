@@ -56,5 +56,35 @@
       key = "<leader>git";
       options.desc = "Open LazyGit";
     }
+    # LSP
+    {
+      mode = "n";
+      action = "<cmd>lua vim.lsp.buf.rename()<CR>";
+      key = "grn";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.code_action()<CR>";
+      key = "gra";
+    }
+    {
+      mode = "n";
+      action = "<cmd>lua vim.lsp.buf.references()<CR>";
+      key = "grr";
+    }
+    {
+      mode = "n";
+      action = "<cmd>lua vim.lsp.buf.implementation()<CR>";
+      key = "gri";
+    }
+    {
+      mode = "n";
+      action = "<cmd>lua vim.lsp.buf.document_symbol()<CR>";
+      key = "gO";
+    }
+    {
+      mode = "i";
+      action = "<cmd>lua vim.lsp.buf.signature_help()<CR>";
+      key = "<C-s>";
+    }
   ];
 }
