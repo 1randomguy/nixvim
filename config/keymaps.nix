@@ -47,7 +47,7 @@
       key = "<leader>tn";
     }
     {
-      action = "<cmd>lua vim.diagnostic.open_float<CR>";
+      action = "<cmd>lua vim.diagnostic.open_float()<CR>";
       key = "<leader>do";
       options.desc = "Diagnostic Open";
     }
