@@ -130,11 +130,12 @@
         dockerls.enable = true; # Docker
         marksman.enable = true; # Markdown
         yamlls.enable = true; # YAML
-        rust-analyzer = {
+        rust-analyzer = { # Rust
           enable = true;
           installRustc = true;
           installCargo = true;
         };
+        ts_ls.enable = true; # TS/JS
       };
     };
 
