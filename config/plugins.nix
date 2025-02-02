@@ -150,7 +150,7 @@
           installRustc = true;
           installCargo = true;
         };
-        ts_ls.enable = true; # TS/JS
+        ts-ls.enable = true; # TS/JS
       };
     };
 
