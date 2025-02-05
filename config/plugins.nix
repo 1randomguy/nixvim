@@ -139,8 +139,13 @@
     # Autopairs
     nvim-autopairs.enable = true;
 
-    # Obsidian
-    obsidian = {
+    # # Obsidian
+    # obsidian = {
+    #   enable = true;
+    # };
+
+    # zk
+    zk = {
       enable = true;
     };
 
