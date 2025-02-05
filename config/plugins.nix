@@ -139,6 +139,11 @@
     # Autopairs
     nvim-autopairs.enable = true;
 
+    # Obsidian
+    obsidian = {
+      enable = true;
+    };
+
     # Language Servers
     lsp = {
       enable = true;
