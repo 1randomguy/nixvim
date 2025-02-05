@@ -139,13 +139,13 @@
     # Autopairs
     nvim-autopairs.enable = true;
 
-    # # Obsidian
-    # obsidian = {
-    #   enable = true;
-    # };
-
     # zk
     zk = {
+      enable = true;
+    };
+
+    # Markdown prettify
+    markview = {
       enable = true;
     };
 
