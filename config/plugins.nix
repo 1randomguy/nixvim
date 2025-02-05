@@ -27,8 +27,10 @@
     # Auto Session
     auto-session = {
       enable = true;
-      autoRestore.enabled = false;
-      autoSession.useGitBranch = true;
+      settings = {
+        #auto_auto_restore = true;
+        use_git_branch = true;
+      };
     };
 
     # Markdown Preview
@@ -141,19 +143,19 @@
     lsp = {
       enable = true;
       servers = {
-        nil-ls.enable = true; # Nix
+        nil_ls.enable = true; # Nix
         pyright.enable = true; # Python
         clangd.enable = true; # C/C++
         bashls.enable = true; # Bash
         dockerls.enable = true; # Docker
         marksman.enable = true; # Markdown
         yamlls.enable = true; # YAML
-        rust-analyzer = { # Rust
+        rust_analyzer = { # Rust
           enable = true;
           installRustc = true;
           installCargo = true;
         };
-        ts-ls.enable = true; # TS/JS
+        ts_ls.enable = true; # TS/JS
       };
     };
 
