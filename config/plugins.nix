@@ -145,7 +145,7 @@
     };
 
     # Markdown prettify
-    markview = {
+    render-markdown = {
       enable = true;
     };
 
