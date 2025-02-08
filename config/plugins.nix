@@ -22,6 +22,11 @@
           };
         };
       };
+      luaConfig = {
+        post = ''
+          require("telescope").load_extension("zk")
+        '';
+      };
     };
 
     # Auto Session
