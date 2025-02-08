@@ -23,11 +23,11 @@
         };
       };
       extensions.ui-select.enable = true;
-      luaConfig = {
-        post = ''
-          require("telescope").load_extension("zk")
-        '';
-      };
+      # luaConfig = {
+      #   post = ''
+      #     require("telescope").load_extension("zk")
+      #   '';
+      # };
     };
 
     # Auto Session
