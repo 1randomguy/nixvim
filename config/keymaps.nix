@@ -106,5 +106,24 @@
       key = "<C-s>";
       mode = "i";
     }
+    # zk
+    {
+      action = "<cmd>ZkTags<CR>";
+      key = "<leader>zt";
+    }
+    {
+      action = "<cmd>ZkNotes { sort = {'modified'}}<CR>";
+      key = "<leader>zo";
+    }
+    {
+      action = "<Cmd>ZkNotes { sort = { 'modified' }, match = { vim.fn.input('Search: ') } }<CR>";
+      key = "<leader>zf";
+      mode = "n";
+    }
+    {
+      action = "<Cmd>:'<,'>ZkMatch<CR>";
+      key = "<leader>zf";
+      mode = "v";
+    }
   ];
 }
