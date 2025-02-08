@@ -22,6 +22,7 @@
           };
         };
       };
+      extensions.ui-select.enable = true;
       luaConfig = {
         post = ''
           require("telescope").load_extension("zk")
