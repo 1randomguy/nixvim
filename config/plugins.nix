@@ -145,15 +145,15 @@
     # Autopairs
     nvim-autopairs.enable = true;
 
-    # zk
-    zk = {
-      enable = true;
-    };
+    # # zk
+    # zk = {
+    #   enable = true;
+    # };
 
-    # Markdown prettify
-    render-markdown = {
-      enable = true;
-    };
+    # # Markdown prettify
+    # render-markdown = {
+    #   enable = true;
+    # };
 
     # Language Servers
     lsp = {
