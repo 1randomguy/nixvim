@@ -265,32 +265,32 @@
     };
   };
 
-  extraPlugins = [(pkgs.vimUtils.buildVimPlugin {
-    name = "selenized";
-    src = pkgs.fetchFromGitHub {
-      owner = "calind";
-      repo = "selenized.nvim";
-      rev = "a43e34d91c3ed9b9c6803150b62458f81e000f31";
-      hash = "sha256-xpN2ezh8mQiQ1DVKThvw4AfCkmo1BVB5okdiPm0Y328=";
-    };
-  })];
+  extraPlugins = [
+    (pkgs.vimUtils.buildVimPlugin {
+      name = "selenized";
+      src = pkgs.fetchFromGitHub {
+        owner = "calind";
+        repo = "selenized.nvim";
+        rev = "a43e34d91c3ed9b9c6803150b62458f81e000f31";
+        hash = "sha256-xpN2ezh8mQiQ1DVKThvw4AfCkmo1BVB5okdiPm0Y328=";
+      };
+    })
+    pkgs.vimPlugins.everforest
+    pkgs.vimPlugins.ayu-vim
+    pkgs.vimPlugins.catppuccin-nvim
+    pkgs.vimPlugins.dracula-nvim
+    pkgs.vimPlugins.kanagawa-nvim
+    pkgs.vimPlugins.melange-nvim
+    pkgs.vimPlugins.monokai-pro-nvim
+    pkgs.vimPlugins.nightfox-nvim
+    pkgs.vimPlugins.one-nvim
+    pkgs.vimPlugins.onedark-nvim
+    pkgs.vimPlugins.oxocarbon-nvim
+    pkgs.vimPlugins.vscode-nvim
+    pkgs.vimPlugins.gruvbox-nvim
+  ];
 
   colorschemes = {
     cyberdream.enable = true;
-    cyberdream.autoLoad = true;
-    ayu.enable = true;
-    gruvbox.enable = true;
-    catppuccin.enable = true;
-    dracula.enable = true;
-    dracula-nvim.enable = true;
-    everforest.enable = true;
-    kanagawa.enable = true;
-    melange.enable = true;
-    monokai-pro.enable = true;
-    nightfox.enable = true;
-    #one.enable = true;
-    onedark.enable = true;
-    #oxocarbon.enable = true;
-    vscode.enable = true;
   };
 }
