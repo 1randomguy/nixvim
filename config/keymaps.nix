@@ -114,6 +114,33 @@
     # zk
     {
       action = "<cmd>ZkTags<CR>";
+      key = "<leader>nt";
+    }
+    {
+      action = "<cmd>ZkBacklinks<CR>";
+      key = "<leader>nb";
+    }
+    {
+      action = "<cmd>ZkNotes { sort = {'modified'}}<CR>";
+      key = "<leader>no";
+    }
+    {
+      action = "<Cmd>ZkNotes { sort = { 'modified' }, match = { vim.fn.input('Search: ') } }<CR>";
+      key = "<leader>nf";
+      mode = "n";
+    }
+    {
+      action = "<Cmd>'<,'>ZkMatch<CR>";
+      key = "<leader>nf";
+      mode = "v";
+    }
+    {
+      action = "<Cmd>'<,'>ZkNewFromTitleSelection { dir = 'General' }<CR>";
+      key = "<leader>nn";
+      mode = "v";
+    }
+    {
+      action = "<cmd>ZkTags<CR>";
       key = "<leader>zt";
     }
     {
