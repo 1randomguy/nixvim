@@ -276,7 +276,21 @@
   })];
 
   colorschemes = {
-    #ayu.enable = true;
     cyberdream.enable = true;
+    cyberdream.autoLoad = true;
+    ayu.enable = true;
+    gruvbox.enable = true;
+    catppuccin.enable = true;
+    dracula.enable = true;
+    dracula-nvim.enable = true;
+    everforest.enable = true;
+    kanagawa.enable = true;
+    melange.enable = true;
+    monokai-pro.enable = true;
+    nightfox.enable = true;
+    one.enable = true;
+    onedark.enable = true;
+    oxocarbon.enable = true;
+    vscode.enable = true;
   };
 }
