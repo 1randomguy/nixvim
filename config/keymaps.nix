@@ -139,32 +139,5 @@
       key = "<leader>nn";
       mode = "v";
     }
-    {
-      action = "<cmd>ZkTags<CR>";
-      key = "<leader>zt";
-    }
-    {
-      action = "<cmd>ZkBacklinks<CR>";
-      key = "<leader>zb";
-    }
-    {
-      action = "<cmd>ZkNotes { sort = {'modified'}}<CR>";
-      key = "<leader>zo";
-    }
-    {
-      action = "<Cmd>ZkNotes { sort = { 'modified' }, match = { vim.fn.input('Search: ') } }<CR>";
-      key = "<leader>zf";
-      mode = "n";
-    }
-    {
-      action = "<Cmd>'<,'>ZkMatch<CR>";
-      key = "<leader>zf";
-      mode = "v";
-    }
-    {
-      action = "<Cmd>'<,'>ZkNewFromTitleSelection { dir = 'General' }<CR>";
-      key = "<leader>zn";
-      mode = "v";
-    }
   ];
 }
