@@ -288,7 +288,7 @@
     melange.enable = true;
     monokai-pro.enable = true;
     nightfox.enable = true;
-    one.enable = true;
+    #one.enable = true;
     onedark.enable = true;
     #oxocarbon.enable = true;
     vscode.enable = true;
