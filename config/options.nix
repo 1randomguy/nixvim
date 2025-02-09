@@ -11,6 +11,18 @@
     expandtab = true;
     smarttab = true;
   };
+  autoCmd = [
+    {
+      command = "TSBufEnable highlight";
+      event = [
+        "BufEnter"
+        "BufWinEnter"
+      ];
+      pattern = [
+        "*.md"
+      ];
+    }
+  ];
   # extraConfigLua = ''
   #     function CreateZkNoteFromSelection()
   #       -- Get the visually selected text
