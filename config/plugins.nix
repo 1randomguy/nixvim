@@ -185,6 +185,9 @@
             highlight = "RenderMarkdownWikiLink";
           };
         };
+        anti_conceal = {
+          enabled = false;
+        };
       };
     };
 
