@@ -57,7 +57,14 @@
     todo-comments.enable = true;
 
     # Syntax Highlighting
-    treesitter.enable = true;
+    treesitter = {
+      enable = true;
+      settings = {
+        highlight = ''
+          vim.bo.filetype == "markdown"
+        '';
+      };
+    };
     treesitter-context.enable = true;
     treesitter-refactor = {
       enable = true;
