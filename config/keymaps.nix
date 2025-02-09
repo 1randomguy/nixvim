@@ -121,8 +121,13 @@
       mode = "n";
     }
     {
-      action = "<Cmd>:'<,'>ZkMatch<CR>";
+      action = "<Cmd>'<,'>ZkMatch<CR>";
       key = "<leader>zf";
+      mode = "v";
+    }
+    {
+      action = "<Cmd>'lua CreateZkNoteFromSelection()<CR>";
+      key = "<leader>zn";
       mode = "v";
     }
   ];
