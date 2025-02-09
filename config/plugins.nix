@@ -290,7 +290,7 @@
     nightfox.enable = true;
     one.enable = true;
     onedark.enable = true;
-    oxocarbon.enable = true;
+    #oxocarbon.enable = true;
     vscode.enable = true;
   };
 }
