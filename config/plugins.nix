@@ -172,6 +172,19 @@
         code = {
           sign = false;
         };
+        link = {
+          enabled = true;
+          footnote = {
+            superscript = true;
+            prefix = "";
+            suffix = "";
+          };
+          highlight = "RenderMarkdownLink";
+          wiki = { 
+            icon = "󱗖 ";
+            highlight = "RenderMarkdownWikiLink";
+          };
+        };
       };
     };
 
