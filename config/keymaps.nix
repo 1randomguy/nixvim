@@ -112,6 +112,10 @@
       key = "<leader>zt";
     }
     {
+      action = "<cmd>ZkBacklinks<CR>";
+      key = "<leader>zb";
+    }
+    {
       action = "<cmd>ZkNotes { sort = {'modified'}}<CR>";
       key = "<leader>zo";
     }
