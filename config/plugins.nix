@@ -153,6 +153,25 @@
     # Markdown prettify
     render-markdown = {
       enable = true;
+      settings = {
+        heading = {
+          #position = "inline";
+          width = [
+            "full"
+            "block"
+          ];
+        };
+        indent.enabled = true;
+        bullet = {
+          icons = [
+            "●"
+            "◆"
+          ];
+        };
+        code = {
+          sign = false;
+        };
+      };
     };
 
     # Language Servers
@@ -164,7 +183,7 @@
         clangd.enable = true; # C/C++
         bashls.enable = true; # Bash
         dockerls.enable = true; # Docker
-        marksman.enable = true; # Markdown
+        #marksman.enable = true; # Markdown
         yamlls.enable = true; # YAML
         rust_analyzer = { # Rust
           enable = true;
