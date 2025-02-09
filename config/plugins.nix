@@ -155,13 +155,14 @@
       enable = true;
       settings = {
         heading = {
-          #position = "inline";
+          position = "inline";
           width = [
             "full"
             "block"
           ];
+          min_width = 30;
         };
-        indent.enabled = true;
+        #indent.enabled = true;
         bullet = {
           icons = [
             "●"
