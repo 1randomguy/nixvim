@@ -126,7 +126,7 @@
       mode = "v";
     }
     {
-      action = "<Cmd>'lua CreateZkNoteFromSelection()<CR>";
+      action = "<Cmd>'<,'>lua CreateZkNoteFromSelection()<CR>";
       key = "<leader>zn";
       mode = "v";
     }
