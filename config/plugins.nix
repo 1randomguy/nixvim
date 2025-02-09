@@ -60,7 +60,7 @@
     treesitter = {
       enable = true;
       settings = {
-        highlight = ''
+        highlight.enable = ''
           vim.bo.filetype == "markdown"
         '';
       };
