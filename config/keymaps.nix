@@ -71,6 +71,11 @@
       key = "<leader>git";
       options.desc = "Open LazyGit";
     }
+    {
+      action = "<cmd>LazyGit<CR>";
+      key = "<leader>gg";
+      options.desc = "Open LazyGit";
+    }
     # LSP
     {
       action = "<cmd>lua vim.diagnostic.open_float()<CR>";
@@ -130,7 +135,7 @@
       mode = "v";
     }
     {
-      action = "<Cmd>'<,'>lua CreateZkNoteFromSelection()<CR>";
+      action = "<Cmd>'<,'>ZkNewFromTitleSelection { dir = 'General' }<CR>";
       key = "<leader>zn";
       mode = "v";
     }
