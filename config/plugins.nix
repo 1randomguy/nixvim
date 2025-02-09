@@ -165,13 +165,13 @@
             "full"
             "block"
           ];
-          min_width = 30;
+          min_width = 100;
         };
         #indent.enabled = true;
         bullet = {
           icons = [
             "●"
-            "◆"
+            #"◆"
           ];
         };
         code = {
