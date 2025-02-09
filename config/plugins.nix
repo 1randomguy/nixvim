@@ -283,7 +283,6 @@
     pkgs.vimPlugins.melange-nvim
     pkgs.vimPlugins.monokai-pro-nvim
     pkgs.vimPlugins.nightfox-nvim
-    pkgs.vimPlugins.one-nvim
     pkgs.vimPlugins.onedark-nvim
     pkgs.vimPlugins.oxocarbon-nvim
     pkgs.vimPlugins.vscode-nvim
