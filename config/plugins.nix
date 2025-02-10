@@ -23,18 +23,13 @@
         };
       };
       extensions.ui-select.enable = true;
-      # luaConfig = {
-      #   post = ''
-      #     require("telescope").load_extension("zk")
-      #   '';
-      # };
     };
 
     # Auto Session
     auto-session = {
       enable = true;
       settings = {
-        #auto_auto_restore = true;
+        auto_auto_restore = false;
         use_git_branch = true;
       };
     };
@@ -52,6 +47,18 @@
         easing_function = "quadratic";
       };
     };
+
+    # Zen Mode
+    zen-mode.enable = true;
+
+    # Sandwich
+    sandwich.enable = true;
+
+    # Easy commenting
+    comment.enable = true;
+
+    # Intellitab
+    intellitab.enable = true;
 
     # Todo Comments
     todo-comments.enable = true;
@@ -255,7 +262,7 @@
           "<C-b>" = "cmp.mapping.scroll_docs(-4)";
           "<C-f>" = "cmp.mapping.scroll_docs(4)";
           "<C-Space>" = "cmp.mapping.complete()";
-          "<CR>" = "cmp.mapping.confirm({ select = true })";
+          #"<CR>" = "cmp.mapping.confirm({ select = true })";
           "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
         };
       };
@@ -273,6 +280,24 @@
         repo = "selenized.nvim";
         rev = "a43e34d91c3ed9b9c6803150b62458f81e000f31";
         hash = "sha256-xpN2ezh8mQiQ1DVKThvw4AfCkmo1BVB5okdiPm0Y328=";
+      };
+    })
+    (pkgs.vimUtils.buildVimPlugin {
+      name = "darcula";
+      src = pkgs.fetchFromGitHub {
+        owner = "doums";
+        repo = "darcula";
+        rev = "faf8dbab27bee0f27e4f1c3ca7e9695af9b1242b";
+        hash = "sha256-Gn+lmlYxSIr91Bg3fth2GAQou2Nd1UjrLkIFbBYlmF8=";
+      };
+    })
+    (pkgs.vimUtils.buildVimPlugin {
+      name = "darcula-solid";
+      src = pkgs.fetchFromGitHub {
+        owner = "santos-gabriel-dario";
+        repo = "darcula-solid.nvim";
+        rev = "d950b9ca20096313c435a93e57af7815766f3d3d";
+        hash = "sha256-lH47rd6xIlArA9BwML3ZsQYOLCr4DKVeLMRcW9kFz1A=";
       };
     })
     pkgs.vimPlugins.everforest
