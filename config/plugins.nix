@@ -291,15 +291,15 @@
         hash = "sha256-Gn+lmlYxSIr91Bg3fth2GAQou2Nd1UjrLkIFbBYlmF8=";
       };
     })
-    (pkgs.vimUtils.buildVimPlugin {
-      name = "darcula-solid";
-      src = pkgs.fetchFromGitHub {
-        owner = "santos-gabriel-dario";
-        repo = "darcula-solid.nvim";
-        rev = "d950b9ca20096313c435a93e57af7815766f3d3d";
-        hash = "sha256-lH47rd6xIlArA9BwML3ZsQYOLCr4DKVeLMRcW9kFz1A=";
-      };
-    })
+    # (pkgs.vimUtils.buildVimPlugin {
+    #   name = "darcula-solid";
+    #   src = pkgs.fetchFromGitHub {
+    #     owner = "santos-gabriel-dario";
+    #     repo = "darcula-solid.nvim";
+    #     rev = "d950b9ca20096313c435a93e57af7815766f3d3d";
+    #     hash = "sha256-lH47rd6xIlArA9BwML3ZsQYOLCr4DKVeLMRcW9kFz1A=";
+    #   };
+    # })
     pkgs.vimPlugins.everforest
     pkgs.vimPlugins.ayu-vim
     pkgs.vimPlugins.catppuccin-nvim
