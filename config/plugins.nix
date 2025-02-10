@@ -57,9 +57,6 @@
     # Easy commenting
     comment.enable = true;
 
-    # Intellitab
-    intellitab.enable = true;
-
     # Todo Comments
     todo-comments.enable = true;
 
