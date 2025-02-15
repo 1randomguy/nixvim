@@ -217,6 +217,7 @@
           installCargo = true;
         };
         ts_ls.enable = true; # TS/JS
+        texlab.enable = true;
       };
     };
 
