@@ -310,7 +310,7 @@
     # })
     pkgs.vimPlugins.everforest
     pkgs.vimPlugins.ayu-vim
-    pkgs.vimPlugins.catppuccin-nvim
+    #pkgs.vimPlugins.catppuccin-nvim
     pkgs.vimPlugins.dracula-nvim
     pkgs.vimPlugins.kanagawa-nvim
     pkgs.vimPlugins.melange-nvim
@@ -320,9 +320,10 @@
     pkgs.vimPlugins.oxocarbon-nvim
     pkgs.vimPlugins.vscode-nvim
     pkgs.vimPlugins.gruvbox-nvim
+    pkgs.vimPlugins.cyberdream-nvim
   ];
 
   colorschemes = {
-    cyberdream.enable = true;
+    catppuccin.enable = true;
   };
 }
