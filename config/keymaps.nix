@@ -102,6 +102,25 @@
       mode = "n";
     }
     {
+      action = "<cmd>lua vim.lsp.buf.code_action()<CR>";
+      key = "<leader>ra";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.references()<CR>";
+      key = "<leader>rr";
+      mode = "n";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.implementation()<CR>";
+      key = "<leader>ri";
+      mode = "n";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.document_symbol()<CR>";
+      key = "<leader>ros";
+      mode = "n";
+    }
+    {
       action = "<cmd>lua vim.lsp.buf.document_symbol()<CR>";
       key = "gO";
       mode = "n";
@@ -135,9 +154,14 @@
       mode = "v";
     }
     {
-      action = "<Cmd>'<,'>ZkNewFromTitleSelection { dir = 'General' }<CR>";
+      action = "<Cmd>'<,'>ZkNewFromTitleSelection<CR>";
       key = "<leader>nn";
       mode = "v";
+    }
+    {
+      action = "<Cmd>ZkNew<CR>";
+      key = "<leader>nn";
+      mode = "n";
     }
   ];
 }
