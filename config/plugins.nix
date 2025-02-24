@@ -159,6 +159,11 @@
       enable = true;
     };
 
+    # image pasting
+    clipboard-image = {
+      enable = true;
+    };
+
     # Markdown prettify
     render-markdown = {
       enable = true;
@@ -290,15 +295,6 @@
         hash = "sha256-xpN2ezh8mQiQ1DVKThvw4AfCkmo1BVB5okdiPm0Y328=";
       };
     })
-    (pkgs.vimUtils.buildVimPlugin {
-      name = "darcula";
-      src = pkgs.fetchFromGitHub {
-        owner = "doums";
-        repo = "darcula";
-        rev = "faf8dbab27bee0f27e4f1c3ca7e9695af9b1242b";
-        hash = "sha256-Gn+lmlYxSIr91Bg3fth2GAQou2Nd1UjrLkIFbBYlmF8=";
-      };
-    })
     # (pkgs.vimUtils.buildVimPlugin {
     #   name = "darcula-solid";
     #   src = pkgs.fetchFromGitHub {
@@ -321,6 +317,7 @@
     pkgs.vimPlugins.vscode-nvim
     pkgs.vimPlugins.gruvbox-nvim
     pkgs.vimPlugins.cyberdream-nvim
+    pkgs.vimPlugins.image-nvim
   ];
 
   colorschemes = {
