@@ -205,6 +205,9 @@
       };
     };
 
+    # Display colors from hex codes
+    colorizer.enable = true;
+
     # Language Servers
     lsp = {
       enable = true;
