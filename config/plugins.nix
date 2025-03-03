@@ -167,6 +167,9 @@
     # show images
     image.enable = true;
 
+    # sudo(a)
+    vim-suda.enable = true;
+
     # Markdown prettify
     render-markdown = {
       enable = true;
