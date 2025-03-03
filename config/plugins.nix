@@ -164,6 +164,9 @@
       enable = true;
     };
 
+    # show images
+    image.enable = true;
+
     # Markdown prettify
     render-markdown = {
       enable = true;
@@ -320,7 +323,6 @@
     pkgs.vimPlugins.vscode-nvim
     pkgs.vimPlugins.gruvbox-nvim
     pkgs.vimPlugins.cyberdream-nvim
-    pkgs.vimPlugins.image-nvim
   ];
 
   colorschemes = {

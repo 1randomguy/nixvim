@@ -23,7 +23,4 @@
       ];
     }
   ];
-
-  extraLuaPackages = ps: [ ps.magick ];
-  extraPackages = [ pkgs.imagemagick ];
 }
