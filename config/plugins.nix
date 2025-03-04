@@ -285,7 +285,7 @@
             s = cmp.mapping.confirm({ select = true }),
             c = cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true }),
           })";
-          "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
+          "<S-CR>" = "cmp.mapping.confirm({ select = true })";
         };
       };
     };
