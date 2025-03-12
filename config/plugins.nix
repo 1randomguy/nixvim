@@ -219,7 +219,7 @@
       enable = true;
       texlivePackage = pkgs.texlive.combined.scheme-full;
       settings = {
-        view_method = "mupdf";
+        view_method = "zathura";
       };
     };
 
