@@ -217,7 +217,7 @@
     #VimTex
     vimtex = {
       enable = true;
-      texlivePackage = "pkgs.texlive.combined.scheme-full";
+      texlivePackage = pkgs.texlive.combined.scheme-full;
     };
 
     # Language Servers
