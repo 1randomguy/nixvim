@@ -214,6 +214,11 @@
     # Display colors from hex codes
     colorizer.enable = true;
 
+    #VimTex
+    vimtex = {
+      enable = true;
+    };
+
     # Language Servers
     lsp = {
       enable = true;
