@@ -159,7 +159,7 @@
       mode = "v";
     }
     {
-      action = "<Cmd>ZkNew<CR>";
+      action = "<Cmd>ZkNew { title = { vim.fn.input('Title: ') } }<CR>";
       key = "<leader>nn";
       mode = "n";
     }
