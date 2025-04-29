@@ -34,12 +34,6 @@
       };
     };
 
-    # Markdown Preview
-    markdown-preview = {
-      enable = true;
-      settings.theme = "dark";
-    };
-
     # Smooth scrolling
     neoscroll = {
       enable = true;
@@ -170,6 +164,12 @@
     # sudo(a)
     vim-suda.enable = true;
 
+    # Markdown Preview
+    markdown-preview = {
+      enable = true;
+      settings.theme = "dark";
+    };
+
     # Markdown prettify
     render-markdown = {
       enable = true;
@@ -207,6 +207,9 @@
         };
         anti_conceal = {
           enabled = false;
+        };
+        latex = {
+          enabled = true;
         };
       };
     };

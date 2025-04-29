@@ -41,6 +41,7 @@
           devShells.default = pkgs.mkShell {
             buildInputs = with pkgs; [
               ripgrep
+              python312Packages.pylatexenc
             ];
           };
 
