@@ -5,6 +5,11 @@
       enable = true;
     };
 
+    # neo-tree
+    neo-tree = {
+      enable = true;
+    };
+
     # Telescope to find files
     telescope = {
       enable = true;
@@ -326,11 +331,6 @@
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
     };
-  };
-
-  # neo-tree
-  neo-tree = {
-    enable = true;
   };
 
   extraPlugins = [
