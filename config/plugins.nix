@@ -296,7 +296,7 @@
             else
               fallback()
             end
-          end, {'i','s','c',})";
+          end, {'i','s'})";
           "<C-j>" = "cmp.mapping.select_next_item()";
           "<C-k>" = "cmp.mapping.select_prev_item()";
           "<C-e>" = "cmp.mapping.abort()";
