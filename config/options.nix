@@ -1,4 +1,4 @@
-{self, pkgs, ...}: {
+{...}: {
   opts = {
     number = true;
     relativenumber = true;
