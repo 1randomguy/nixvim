@@ -328,6 +328,7 @@
     };
   };
 
+  # neo-tree
   neo-tree = {
     enable = true;
   };
@@ -351,6 +352,7 @@
     #     hash = "sha256-lH47rd6xIlArA9BwML3ZsQYOLCr4DKVeLMRcW9kFz1A=";
     #   };
     # })
+    pkgs.vimPlugins.rnvimr
     pkgs.vimPlugins.everforest
     pkgs.vimPlugins.ayu-vim
     #pkgs.vimPlugins.catppuccin-nvim
