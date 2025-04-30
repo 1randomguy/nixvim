@@ -1,5 +1,9 @@
 {pkgs, ...}: {
   plugins = {
+    # Hardmode
+    hardtime = {
+      enable = true;
+    };
     # Telescope to find files
     telescope = {
       enable = true;
