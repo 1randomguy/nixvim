@@ -4,6 +4,7 @@
     hardtime = {
       enable = true;
     };
+
     # Telescope to find files
     telescope = {
       enable = true;
@@ -325,6 +326,10 @@
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
     };
+  };
+
+  neo-tree = {
+    enable = true;
   };
 
   extraPlugins = [
