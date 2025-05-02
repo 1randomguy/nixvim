@@ -27,6 +27,10 @@
       key = "<leader>ff";
     }
     {
+      action = "<cmd>Telescope file_browser<CR>";
+      key = "<leader>fd";
+    }
+    {
       action = "<cmd>Telescope oldfiles<CR>";
       key = "<leader>fh";
     }

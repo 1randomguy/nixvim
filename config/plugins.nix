@@ -32,6 +32,7 @@
           };
         };
       };
+      extensions.live-grep-args.enable = true;
       extensions.ui-select.enable = true;
     };
 
