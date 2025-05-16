@@ -53,6 +53,9 @@
       };
     };
 
+    # Remote-nvim
+    remote-nvim.enable = true;
+
     # Zen Mode
     zen-mode.enable = true;
 
