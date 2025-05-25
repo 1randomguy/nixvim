@@ -63,6 +63,10 @@
       key = "<leader>fe";
     }
     {
+      action = "<cmd>Yazi<CR>";
+      key = "<leader>fy";
+    }
+    {
       action = "<cmd>Tex<CR>";
       key = "<leader>te";
     }

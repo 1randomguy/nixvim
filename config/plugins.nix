@@ -10,6 +10,8 @@
       enable = true;
     };
 
+    yazi.enable = true;
+
     # Telescope to find files
     telescope = {
       enable = true;
