@@ -5,12 +5,16 @@
       enable = true;
     };
 
-    # neo-tree
-    neo-tree = {
+    # yazi file manager
+    yazi.enable = true;
+
+    # codecompanion
+    codecompanion = {
       enable = true;
     };
 
-    yazi.enable = true;
+    # copilot
+    copilot-vim.enable = true;
 
     # Telescope to find files
     telescope = {
