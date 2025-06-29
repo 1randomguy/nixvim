@@ -5,4 +5,7 @@
     ./options.nix
     ./keymaps.nix
   ];
+  nixpkgs.config = {
+    allowUnfree = true;
+  };
 }
