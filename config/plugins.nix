@@ -14,7 +14,8 @@
     };
 
     # copilot
-    copilot-vim.enable = true;
+    copilot-lua.enable = true;
+    copilot-cmp.enable = true;
 
     # Telescope to find files
     telescope = {
@@ -292,7 +293,7 @@
             option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";
             keywordLength = 3;
           }
-          # { name = "copilot"; } # enable/disable copilot
+          { name = "copilot"; } # enable/disable copilot
           {
             name = "path"; # file system paths
             keywordLength = 3;
