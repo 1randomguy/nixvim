@@ -23,7 +23,7 @@
       options.noremap = true;
     }
     {
-      action = "<C-\><C-n>";
+      action = "<C-\\><C-n>";
       key = "<Esc>";
       mode = "t";
       options.noremap = true;
