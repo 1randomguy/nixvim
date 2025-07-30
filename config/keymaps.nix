@@ -23,6 +23,12 @@
       options.noremap = true;
     }
     {
+      action = "<C-\><C-n>";
+      key = "<Esc>";
+      mode = "t";
+      options.noremap = true;
+    }
+    {
       action = "<cmd>Telescope find_files<CR>";
       key = "<leader>ff";
     }
