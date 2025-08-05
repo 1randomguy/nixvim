@@ -24,7 +24,7 @@
     }
     {
       action = "<C-\\><C-n>";
-      key = "<Esc>";
+      key = "<C-k><C-k>";
       mode = "t";
       options.noremap = true;
     }
