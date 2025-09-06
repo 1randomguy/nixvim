@@ -26,4 +26,5 @@
   nixpkgs.config = {
     allowUnfree = true;
   };
+  vimAlias = true;
 }
